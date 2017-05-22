@@ -64,7 +64,7 @@ public class ImageUploadServlet extends HttpServlet {
 						item.delete();
 						imageName.add(fileName);	
 					}		
-				}
+				}//
 			}//for
 			vo.setImageNames(imageName);
 			
